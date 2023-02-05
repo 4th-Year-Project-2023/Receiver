@@ -1,0 +1,19 @@
+25-01-2023 21:47:22.563 [main] INFO  m.p.receiver.ReceiverApplication.logStarting - Starting ReceiverApplication v0.0.1-SNAPSHOT on edwin-HP-Laptop-15s-gr0xxx with PID 3984 (/home/edwin/Documents/workspace/receiver/target/receiver-0.0.1-SNAPSHOT.jar started by root in /home/edwin/Documents/workspace/receiver)
+25-01-2023 21:47:22.575 [main] INFO  m.p.receiver.ReceiverApplication.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+25-01-2023 21:47:22.749 [main] INFO  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext.prepareRefresh - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@4c75cab9: startup date [Wed Jan 25 21:47:22 IST 2023]; root of context hierarchy
+25-01-2023 21:47:24.986 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer.initialize - Tomcat initialized with port(s): 8083 (http)
+25-01-2023 21:47:25.063 [main] INFO  o.a.catalina.core.StandardService.log - Starting service [Tomcat]
+25-01-2023 21:47:25.065 [main] INFO  o.a.catalina.core.StandardEngine.log - Starting Servlet Engine: Apache Tomcat/8.5.34
+25-01-2023 21:47:25.131 [localhost-startStop-1] INFO  o.a.c.core.AprLifecycleListener.log - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib]
+25-01-2023 21:47:25.350 [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring embedded WebApplicationContext
+25-01-2023 21:47:25.556 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean.addRegistration - Servlet dispatcherServlet mapped to [/]
+25-01-2023 21:47:25.563 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean.configure - Mapping filter: 'characterEncodingFilter' to: [/*]
+25-01-2023 21:47:25.565 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean.configure - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+25-01-2023 21:47:25.565 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean.configure - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+25-01-2023 21:47:25.566 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean.configure - Mapping filter: 'requestContextFilter' to: [/*]
+25-01-2023 21:47:27.309 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter.afterSingletonsInstantiated - Registering beans for JMX exposure on startup
+25-01-2023 21:47:27.476 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer.start - Tomcat started on port(s): 8083 (http) with context path ''
+25-01-2023 21:47:27.502 [main] INFO  m.p.receiver.ReceiverApplication.logStarted - Started ReceiverApplication in 5.78 seconds (JVM running for 6.536)
+25-01-2023 21:47:36.498 [MQTT Call: paho1031373779013] INFO  m.p.receiver.mqtt.ReceiverCallback.messageArrived - Received message from t2.io/  {"commands":["ls>>cc.out","neofetch>>cc1.out"]}
+25-01-2023 21:48:08.700 [Thread-8] INFO  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext.doClose - Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@4c75cab9: startup date [Wed Jan 25 21:47:22 IST 2023]; root of context hierarchy
+25-01-2023 21:48:08.704 [Thread-8] INFO  o.s.j.e.a.AnnotationMBeanExporter.destroy - Unregistering JMX-exposed beans on shutdown
